@@ -1,0 +1,6 @@
+git init
+git remote add origin https://github.com/pureman9/Productivity.git
+git pull origin main --allow-unrelated-histories
+git add .
+git commit -m "Add initial project files"
+git push origin main
