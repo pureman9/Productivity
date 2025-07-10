@@ -17,3 +17,24 @@ git clone: (ไม่ต้องใช้ Node.js) เป็นการดา�
 cd <ชื่อโฟลเดอร์โปรเจกต์>: เข้าไปในโฟลเดอร์ที่เพิ่งดาวน์โหลดมา
 npm install: (ต้องใช้ Node.js) เป็นขั้นตอนการติดตั้ง "ส่วนประกอบ" หรือ "dependencies" ทั้งหมดที่โปรเจกต์นั้นต้องการเพื่อที่จะทำงานได้
 npm run dev (หรือคำสั่งอื่นๆ): (ต้องใช้ Node.js) เป็นการสั่งให้โปรเจกต์ทำงานเพื่อเริ่มการพัฒนาหรือดูผลลัพธ์
+
+-------------------------------------------------------------------------------------------------------------------
+Zephyr Squad API Key
+Access Key : MDNhM2U0OGQtMTVjMy0zNWVlLTg1OTctZDQ0MWFkYjYzMWQwIDcxMjAyMCUzQWViYzZiNzBhLWQwZWQtNDZjYy1hZDY1LTc1ZWFmMDZkZTEyMyBVU0VSX0RFRkFVTFRfTkFNRQ
+Secret Key : 1CGVXnCLhlaiJ7UZxx5YaG9uoLaDoGojZvYxQcbntxg
+
+https://depthcon1.atlassian.net/rest/api/3/myself
+https://depthcon1.atlassian.net/rest/api/3/user?accountId=712020:ebc6b70a-d0ed-46cc-ad65-75eaf06de123
+accountId": "712020:ebc6b70a-d0ed-46cc-ad65-75eaf06de123"
+emailAddress": "manuchet@cardx.co.th",
+
+
+node generateToken.js
+JWTtoken : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MTIwMjA6ZWJjNmI3MGEtZDBlZC00NmNjLWFkNjUtNzVlYWYwNmRlMTIzIiwicXNoIjoiZDcxYWY5NDdjMzA3YTVmY2Q2OGUzYjFmYTc2OWY5ZGZlZTdhZGIxNGEyYjhmYmNjZjZhZjZiOWM0YjgyYjQ0MyIsImlzcyI6Ik1ETmhNMlUwT0dRdE1UVmpNeTB6TldWbExUZzFPVGN0WkRRME1XRmtZall6TVdRd0lEY3hNakF5TUNVelFXVmlZelppTnpCaExXUXdaV1F0TkRaall5MWhaRFkxTFRjMVpXRm1NRFprWlRFeU15QlZVMFZTWDBSRlJrRlZURlJmVGtGTlJRIiwiaWF0IjoxNzUyMTQyOTYxLCJleHAiOjE3NTIxNDY1NjF9.7OuuLIu8YLSt9dv9DnAQN1cPltdJHCz0QS-sd50fRPY
+
+
+Jira API token : ATATT3xFfGF05yhS9BF-AZbO2-VNowglXf-pc-pR8_iEgMbuL67SsqzlD2gx_YHP6rkFOGaxRPeTnVcCWUDP_NbtHehRJqRVjHxe9Tz2Zcrvj4zs8OcQE67BV5wXRpp9a4f6uoOys2f9Cqz5pyvOdyoYGwwO2M3k44AEcSW_qwf7GWvK7phyb_I=0EF3DDB9
+
+-------------------------------------------------------------------------------------------------------------------
+run test : ts-node getTestCycles.ts
+npm install jsonwebtoken @types/jsonwebtoken
