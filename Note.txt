@@ -35,6 +35,9 @@ JWTtoken : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MTIwMjA6ZWJjNmI3MGEt
 
 Jira API token : ATATT3xFfGF05yhS9BF-AZbO2-VNowglXf-pc-pR8_iEgMbuL67SsqzlD2gx_YHP6rkFOGaxRPeTnVcCWUDP_NbtHehRJqRVjHxe9Tz2Zcrvj4zs8OcQE67BV5wXRpp9a4f6uoOys2f9Cqz5pyvOdyoYGwwO2M3k44AEcSW_qwf7GWvK7phyb_I=0EF3DDB9
 
+run complie
+npx tsc getTestsFromJira.ts
+node getTestsFromJira.js
 -------------------------------------------------------------------------------------------------------------------
 run test : ts-node getTestCycles.ts
 npm install jsonwebtoken @types/jsonwebtoken

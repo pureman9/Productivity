@@ -18,7 +18,6 @@ const queryParams = {
 };
 // =============================================================
 
-
 function generateZephyrJwtToken(sortedQueryString: string): string | null {
     if (ZEPHYR_SECRET_KEY.startsWith('YOUR_')) {
         console.error("!!! กรุณากรอก ZEPHYR_SECRET_KEY ในสคริปต์ก่อนรัน");

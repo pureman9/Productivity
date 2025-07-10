@@ -41,7 +41,7 @@ var jwt = require("jsonwebtoken");
 var crypto = require("crypto");
 // ======================= CONFIGURATION =======================
 // 1. กรอกข้อมูลของคุณที่นี่
-var JIRA_BASE_URL = 'https://depthcon1.atlassian.net';
+var JIRA_BASE_URL = 'https://prod-play.zephyr4jiracloud.com/connect';
 var JIRA_ACCOUNT_ID = '712020:ebc6b70a-d0ed-46cc-ad65-75eaf06de123';
 var ZEPHYR_ACCESS_KEY = 'MDNhM2U0OGQtMTVjMy0zNWVlLTg1OTctZDQ0MWFkYjYzMWQwIDcxMjAyMCUzQWViYzZiNzBhLWQwZWQtNDZjYy1hZDY1LTc1ZWFmMDZkZTEyMyBVU0VSX0RFRkFVTFRfTkFNRQ';
 var ZEPHYR_SECRET_KEY = '1CGVXnCLhlaiJ7UZxx5YaG9uoLaDoGojZvYxQcbntxg'; // <<< ❗ กรอก SECRET KEY ของคุณที่นี่
