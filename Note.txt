@@ -21,7 +21,8 @@ npm run dev (หรือคำสั่งอื่นๆ): (ต้องใช
 -------------------------------------------------------------------------------------------------------------------
 Zephyr Squad API Key
 Access Key : MDNhM2U0OGQtMTVjMy0zNWVlLTg1OTctZDQ0MWFkYjYzMWQwIDcxMjAyMCUzQWViYzZiNzBhLWQwZWQtNDZjYy1hZDY1LTc1ZWFmMDZkZTEyMyBVU0VSX0RFRkFVTFRfTkFNRQ
-Secret Key : 1CGVXnCLhlaiJ7UZxx5YaG9uoLaDoGojZvYxQcbntxg
+Secret Key : HMuzgQH2Z2SVZ_0jbdSG0eogPpXCqOERwNy9XoM7Gto
+
 
 https://depthcon1.atlassian.net/rest/api/3/myself
 https://depthcon1.atlassian.net/rest/api/3/user?accountId=712020:ebc6b70a-d0ed-46cc-ad65-75eaf06de123
@@ -38,6 +39,14 @@ Jira API token : ATATT3xFfGF05yhS9BF-AZbO2-VNowglXf-pc-pR8_iEgMbuL67SsqzlD2gx_YH
 run complie
 npx tsc getTestsFromJira.ts
 node getTestsFromJira.js
+
+npx tsc fetchZephyrSquad.ts
+node fetchZephyrSquad.js
 -------------------------------------------------------------------------------------------------------------------
 run test : ts-node getTestCycles.ts
 npm install jsonwebtoken @types/jsonwebtoken
+
+
+https://prod-play.zephyr4jiracloud.com/connect/public/rest/api/2.0/executions
+/search/folder/d819e733-46db-4177-9405-a512363475e0?projectId=10085&versionId=14676
+&cycleId=0b05eb4c-5553-44a3-8533-bdbbc23ab9f2&offset=0&action=expand&sortBy=status&sortOrder=ASC&size=50&_=1752148981956

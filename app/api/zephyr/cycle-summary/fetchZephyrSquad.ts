@@ -2,20 +2,16 @@ import axios, { AxiosError } from 'axios';
 import * as jwt from 'jsonwebtoken';
 import * as crypto from 'crypto';
 
-// ======================= CONFIGURATION =======================
-// 1. กรอกข้อมูลของคุณที่นี่
-const JIRA_BASE_URL = 'https://depthcon1.atlassian.net';
-const JIRA_ACCOUNT_ID = '712020:ebc6b70a-d0ed-46cc-ad65-75eaf06de123';
-const ZEPHYR_ACCESS_KEY = 'MDNhM2U0OGQtMTVjMy0zNWVlLTg1OTctZDQ0MWFkYjYzMWQwIDcxMjAyMCUzQWViYzZiNzBhLWQwZWQtNDZjYy1hZDY1LTc1ZWFmMDZkZTEyMyBVU0VSX0RFRkFVTFRfTkFNRQ';
-const ZEPHYR_SECRET_KEY = '1CGVXnCLhlaiJ7UZxx5YaG9uoLaDoGojZvYxQcbntxg'; // <<< ❗ กรอก SECRET KEY ของคุณที่นี่
-
-// 2. กำหนด Endpoint และ Parameters ที่ต้องการจะเรียกใช้
-const API_METHOD = 'GET';
-const API_URI = '/rest/zapi/latest/cycle'; // Endpoint สำหรับดึง Test Cycle
-const queryParams = {
-    projectId: '10085',
-    versionId: '-1', // -1 หมายถึงทุกเวอร์ชัน
-};
+// <<<--- จุดแก้ไข: ลบ Configuration เดิมออก แล้ว import มาแทน ---<<<
+import {
+    JIRA_BASE_URL,
+    JIRA_ACCOUNT_ID,
+    ZEPHYR_ACCESS_KEY,
+    ZEPHYR_SECRET_KEY,
+    API_METHOD,
+    API_URI,
+    queryParams
+} from './config';
 // =============================================================
 
 function generateZephyrJwtToken(sortedQueryString: string): string | null {
